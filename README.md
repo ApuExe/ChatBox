@@ -1,60 +1,81 @@
-# ChatBoxApp
+# ChatBox
 
-ChatBoxApp es una aplicación web diseñada para proporcionar una experiencia interactiva de chat con un diseño atractivo y funcional. El proyecto utiliza tecnologías web estándar como HTML, CSS y JavaScript.
+ChatBox es una landing page interactiva desarrollada con tecnologías web nativas, enfocada en presentar una interfaz moderna, visualmente atractiva y con animaciones suaves.
+
+El proyecto utiliza HTML, CSS y JavaScript puro, sin depender de frameworks de frontend.
+
+---
+
+## Demo
+
+Puedes visualizar el proyecto desde GitHub Pages:
+
+[Ver ChatBox](https://apuexe.github.io/ChatBox/)
+
+---
 
 ## Características
 
-- **Interfaz moderna:** Diseño atractivo con múltiples secciones estilizadas.
-- **Animaciones:** Uso de `aos.js` para efectos visuales.
-- **Personalización de fondos:** Script para cambiar fondos dinámicamente.
-- **Optimización CSS:** Archivos organizados para mejorar la estructura y el mantenimiento del diseño.
+- Diseño moderno y visual.
+- Landing page dividida en diferentes secciones.
+- Animaciones durante el desplazamiento.
+- Efectos visuales mediante JavaScript.
+- Uso de imágenes optimizadas en formato WebP.
+- Organización modular de estilos CSS.
+- Estructura simple y fácil de mantener.
+- Compatible con navegadores web modernos.
+- Preparado para despliegue mediante GitHub Pages.
 
-## Estructura del Proyecto
+---
 
-```
-ChatBoxApp/
-│-- index.html             # Página principal
-│-- CSS/                   # Archivos de estilo
-│   │-- mainStyle.css      # Estilos generales
-│   │-- (Otros estilos por sección)
-│-- JS/                    # Archivos JavaScript
-│   │-- mainScript.js      # Lógica principal
-│   │-- observer.js        # Manejo de observadores
-│   │-- aos.js             # Animaciones
-│-- RECURSOS/              # Imágenes y otros recursos
-│   │-- ChatBoxPics/       # Imágenes utilizadas en la app
-│-- .vscode/settings.json  # Configuración opcional para VS Code
-```
+## Tecnologías utilizadas
 
-## Instalación y Uso
+El proyecto fue construido utilizando:
 
-1. Clona el repositorio:
-   ```sh
-  git clone https://github.com/ApuExe/ChatBox.git
-   ```
-2. Abre `index.html` en un navegador.
-3. Disfruta de la aplicación interactiva.
+- HTML5
+- CSS3
+- JavaScript
+- AOS / animaciones basadas en scroll
+- Git
+- GitHub
+- GitHub Pages
 
-## Requisitos
+No requiere frameworks como React, Vue o Angular.
 
-- Un navegador web moderno (Chrome, Firefox, Edge, etc.).
-- Conexión a internet si se cargan recursos externos.
+---
 
-## Retos y Aprendizajes
+## Estructura del proyecto
 
-Durante el desarrollo de ChatBoxApp, la parte más complicada fue la implementación del efecto de fondo con `polygon`, ya que requería un ajuste preciso para que funcionara correctamente en distintos tamaños de pantalla.
-
-Además, aprendí sobre la biblioteca `aos.js` y su uso para crear animaciones en la página de manera sencilla y eficiente.
-
-## Link de Ejecución
-
-[ChatBox](https://apuexe.github.io/ChatBox/)
-
-## Autor
-
-Desarrollado por [ApuExe](https://github.com/ApuExe).
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT.
+```text
+ChatBox/
+│
+├── CSS/
+│   ├── ClasesGenerales.css
+│   ├── Colores.css
+│   ├── FirstSection.css
+│   ├── SecondSection.css
+│   ├── ThirdSection.css
+│   ├── FourthSection.css
+│   ├── FifthSection.css
+│   ├── SixthSection.css
+│   ├── SeventhSection.css
+│   ├── ReajustadorDeMargenes.css
+│   └── mainStyle.css
+│
+├── JS/
+│   ├── aos.js
+│   ├── background-apply.js
+│   ├── mainScript.js
+│   └── observer.js
+│
+├── RECURSOS/
+│   ├── ChatBoxPics/
+│   ├── Iconos/
+│   └── Logos/
+│
+├── .vscode/
+│   └── settings.json
+│
+├── index.html
+└── README.md
 

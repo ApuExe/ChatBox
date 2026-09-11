@@ -30,7 +30,7 @@ ChatBoxApp/
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/LavenderEdit/ChatBoxApp.git
+  git clone https://github.com/ApuExe/ChatBox.git
    ```
 2. Abre `index.html` en un navegador.
 3. Disfruta de la aplicación interactiva.
@@ -48,13 +48,13 @@ Además, aprendí sobre la biblioteca `aos.js` y su uso para crear animaciones e
 
 ## Link de Ejecución
 
-[ChatBox](https://lavenderedit.github.io/ChatBoxApp/).
+[ChatBox](https://apuexe.github.io/ChatBox/)
 
-## Créditos
+## Autor
 
-Desarrollado por [LavenderEdit](https://github.com/LavenderEdit).
+Desarrollado por [ApuExe](https://github.com/ApuExe).
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
+Este proyecto está bajo la licencia MIT.
 

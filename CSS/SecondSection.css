@@ -1,0 +1,39 @@
+/* Segunda sección con posición absoluta */
+.second-section {
+    position: absolute;
+    top: 400px;
+    left: 0;
+    min-height: 400px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hero-chat-image {
+    max-width: 80%;
+    height: auto;
+    filter: drop-shadow(0px 0px 15px gray);
+    border-radius: 20px;
+}
+
+.logo-visual-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.logo-visual-container img {
+    width: auto;
+    max-width: 150px;
+    object-fit: contain;
+    opacity: 0.2;
+}
+
+/* Tamaño de logos */
+#StripeLogo { height: 35px; }
+#HopinLogo { height: 35px; }
+#SplunkLogo { height: 25px; }
+#AfterpayLogo { height: 65px; }
+#AttentiveLogo { height: 50px; }

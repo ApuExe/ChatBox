@@ -1,0 +1,193 @@
+/* Estilo global para no permitir se copie un elemento de la pagina web */
+.sin-copiar {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Delineado */
+.delinear {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.delinear:hover {
+    text-decoration: underline;
+}
+
+/* Estilos globales del estilo de peso de una letra */
+.negrita-baja {
+    font-weight: 100;
+}
+
+.negrita-media {
+    font-weight: 600;
+}
+
+.negrita-media-extrema {
+    font-weight: 900;
+}
+
+.negrita-extrema {
+    font-weight: bold;
+}
+
+.negrita-extrema-extrema {
+    font-weight: bolder;
+}
+
+/* Estilos globales para activar mediante js */
+.escondido {
+    display: none;
+}
+
+.activo {
+    display: block;
+}
+
+.activo-overlay {
+    display: flex;
+}
+
+/* Estilos globales de los botones - en consideración del tamaño */
+.btn-size-small {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
+.btn-size-medium {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.btn-size-large {
+    padding: 14px 28px;
+    font-size: 14px;
+}
+
+.btn-size-extra-large {
+    padding: 18px 36px;
+    font-size: 14px;
+}
+
+.btn-size-extra-extra-large {
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+/* Estilos globales para ajustar la posición del contenido de la página web */
+.z-index-dim {
+    z-index: 1;
+}
+
+.z-index-min {
+    z-index: 9;
+}
+
+.z-index-max {
+    position: relative;
+    z-index: 9999;
+}
+
+/* Estilos globales para ajustar el lugar en el que se alineara el texto */
+.justified-adjustment {
+    text-align: justify;
+}
+
+.left-adjustment {
+    text-align: left;
+    align-items: flex-start;
+    align-self: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.right-adjustment {
+    text-align: right;
+    align-items: flex-end;
+    align-self: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+
+/* Tamaño de Linea */
+.line-1-6 {
+    line-height: 1.6;
+}
+
+/* Estilos para el tamaño de la fuente de letras */
+.font-small {
+    font-size: 11px;
+}
+
+.font-small-medium {
+    font-size: 16px;
+}
+
+.font-medium-twenty-mark {
+    font-size: 20px;
+}
+
+.font-medium {
+    font-size: 21px;
+}
+
+.font-medium-large {
+    font-size: 26px;
+}
+
+.font-large {
+    font-size: 31px;
+}
+
+.font-extra-large {
+    font-size: 37px;
+}
+
+.font-extra-extra-large {
+    font-size: 42px;
+}
+
+.font-triple-extra-large {
+    font-size: 61px;
+}
+
+/* Bordes */
+.only-bottom-border {
+    border-bottom: 45px solid black;
+}
+
+/* Efecto del Fondo */
+.background-effect {
+    background-color: #014DFE !important;
+    color: white;
+    box-shadow: 0px 10px 25px rgba(34, 107, 254, 0.3);
+    transform: translateY(-5px);
+    position: relative;
+    overflow: hidden;
+}
+
+.background-effect::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    clip-path: polygon(10% 0, 90% 0, 70% 100%, 30% 100%);
+    transform: rotate(-15deg);
+}
+
+.background-effect::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    clip-path: polygon(0 20%, 100% 30%, 80% 100%, 20% 90%);
+    transform: rotate(10deg);
+}
